@@ -1,12 +1,12 @@
 <template>
     <footer>
-        ciao
+        Footer 1
     </footer>
 </template>
 
 <script>
 export default {
-  name: 'FooterApp',
+  name: 'FooterTop',
   data() {
       
 

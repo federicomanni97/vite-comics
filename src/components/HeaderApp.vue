@@ -1,12 +1,10 @@
 <template>
-    <div class="container">
-        <div class="d-flex justify-content-evenly align-items-center">
+        <div class="d-flex justify-content-between align-items-center">
         <img src="/public/img/dc-logo.png" alt="Logo">
         <div>
             <NavbarApp/>
         </div>
         </div>
-    </div>
 </template>
 
 <script>

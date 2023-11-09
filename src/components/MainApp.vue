@@ -1,6 +1,6 @@
 <template>
       <main>
-         main
+         <h1>Content Goes Here</h1>
       </main>
 </template>
 
