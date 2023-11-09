@@ -1,6 +1,8 @@
 <template>
       <main>
-         <h1>Content Goes Here</h1>
+        <div class="container text-light">
+            <h1 class="m-0">Content Goes Here</h1>
+        </div>
       </main>
 </template>
 
@@ -16,5 +18,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 
 </style>
