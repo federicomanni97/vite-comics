@@ -135,7 +135,7 @@ export default {
   .jumbotron-bg{
     background-image: url(img/jumbotron.jpg);
     background-size: cover;
-    height: 500px;
+    height: 400px;
   }
   
 
