@@ -2,11 +2,17 @@
   <div class="container">
     <HeaderApp/>
   </div>  
-  <div class="bg-dark p-5 d-flex flex-wrap justify-content-center p-5">
-    <MainApp v-for="card in array"
-    :image="card.thumb"
-    :text="card.series"
-    />
+  <div class="jumbotron-bg w-100">
+  </div>
+  <div class="bg-dark">
+    <div class="container">
+      <div class="row py-5">
+        <MainApp v-for="card in array"
+        :image="card.thumb"
+        :text="card.series"
+        />
+      </div>
+    </div>
   </div>  
   <div class="bg-primary">
     <MainBottom/>
@@ -121,6 +127,13 @@ export default {
     background-repeat: no-repeat;
     background-size: cover; 
   }
+  
+  .jumbotron-bg{
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+  
 
   .bg-ciao{
     background-color: #303030;

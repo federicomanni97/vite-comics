@@ -1,14 +1,8 @@
 <template>
-      <main>
-        <div class="container text-light">  
-            <div class="card" style="width: 18rem;">
+        <div class="col-2 py-4">
                 <img class="" :src="image" alt="">
-                <div class="">
-                    <p class="card-text text-center">{{ text }}</p>
-                </div>
-            </div> 
+                <span class="text-light text-uppercase fs-6">{{ text }}</span>
         </div>
-      </main>
 </template>
 
 <script>
@@ -25,5 +19,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    img{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+    }
+
 
 </style>
