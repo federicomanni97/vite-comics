@@ -14,7 +14,7 @@
         />
       </div>
       <div class="text-center">
-        <button class="bg-primary p-2 my-4 border-0 text-light">SIGN-UP NOW!</button>
+        <button class="bg-primary py-2 px-5 my-4 border-0 text-light">LOAD MORE</button>
       </div>  
     </div>
   </div>  
