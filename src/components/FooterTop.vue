@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="container d-flex justify-content-between py-3 text-light position-">
+        <div class="container right-logo d-flex py-3 text-light position-">
             <div class="flex-column">
                 <div class="px-3">
                     <h5>DC COMICS</h5>
@@ -11,24 +11,21 @@
                 <div class="px-3">
                     <h5>SHOP</h5>
                     <ul class="p-0">
-                        <li v-for="list in fourth"><a href="">{{ list }}</a></li>
+                        <li v-for="list in second"><a href="">{{ list }}</a></li>
                     </ul>
                 </div>
             </div>
             <div class="px-3">
                 <h5>DC</h5>
                 <ul class="p-0">
-                    <li v-for="list in second"><a href="">{{ list }}</a></li>
+                    <li v-for="list in third"><a href="">{{ list }}</a></li>
                 </ul>
             </div>
             <div class="px-3"> 
                 <h5>SITES</h5>
                 <ul class="p-0">
-                    <li v-for="list in third"><a href="">{{ list }}</a></li>
+                    <li v-for="list in fourth"><a href="">{{ list }}</a></li>
                 </ul>
-            </div>
-            <div class="right-logo">
-                <img src="img/dc-logo-bg.png" alt="">
             </div>
         </div>
     </footer>
@@ -85,5 +82,10 @@ export default {
     a{
         text-decoration: none; 
         color: grey;
+    }
+    .right-logo{
+        background-image: url('/img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
     }
 </style>
