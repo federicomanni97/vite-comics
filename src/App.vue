@@ -6,12 +6,16 @@
   </div>
   <div class="bg-dark">
     <div class="container">
-      <div class="row py-5">
+      <span class="fs-3 py-3 px-5 bg-primary text-uppercase text-light">Current Series</span>
+      <div class="row py-4">
         <MainApp v-for="card in array"
         :image="card.thumb"
         :text="card.series"
         />
       </div>
+      <div class="text-center">
+        <button class="bg-primary p-2 my-4 border-0 text-light">SIGN-UP NOW!</button>
+      </div>  
     </div>
   </div>  
   <div class="bg-primary">
@@ -134,6 +138,7 @@ export default {
     height: 500px;
   }
   
+
 
   .bg-ciao{
     background-color: #303030;

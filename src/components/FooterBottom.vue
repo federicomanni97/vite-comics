@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div class="container py-5 d-flex text-light justify-content-between">
-            <button>SIGN-UP NOW!</button>
+            <button class="bg-primary border-0 text-light">SIGN-UP NOW!</button>
             <ul class="d-flex list-unstyled">
                 <li>FOLLOW US</li>
                 <li><i class="fa-brands fa-facebook-f">1</i></li>
