@@ -1,6 +1,6 @@
 <template>
         <div class="d-flex justify-content-between align-items-center">
-        <img src="/public/img/dc-logo.png" alt="Logo">
+        <img src="img/dc-logo.png" alt="Logo">
         <div>
             <NavbarApp/>
         </div>

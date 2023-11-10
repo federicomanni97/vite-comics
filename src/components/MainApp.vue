@@ -1,7 +1,12 @@
 <template>
       <main>
-        <div class="container text-light">
-            <h1 class="m-0">Content Goes Here</h1>
+        <div class="container text-light">  
+            <div class="card" style="width: 18rem;">
+                <img class="" :src="image" alt="">
+                <div class="">
+                    <p class="card-text text-center">{{ text }}</p>
+                </div>
+            </div> 
         </div>
       </main>
 </template>
@@ -9,15 +14,16 @@
 <script>
 export default {
     name: 'MainApp',
+    props: {
+        image: String,
+        text: String,
+    },
     data() {
-        
-
         return {}
     }
 }
 </script>
 
 <style lang="scss" scoped>
-
 
 </style>
