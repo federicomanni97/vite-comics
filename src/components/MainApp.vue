@@ -1,7 +1,7 @@
 <template>
         <div class="col-2 py-4">
                 <img class="" :src="image" alt="">
-                <span class="text-light text-uppercase fs-6">{{ text }}</span>
+                <span class="text-light text-uppercase fs-5">{{ text }}</span>
         </div>
 </template>
 
